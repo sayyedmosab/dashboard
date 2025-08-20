@@ -1,0 +1,6 @@
+{
+  "name": "Holistic Transformation Dashboard",
+  "description": "A comprehensive, three-zone dashboard visualizing strategic insights, internal outputs, and sector-level outcomes. Features multiple bespoke charts and integrates Gemini for on-demand AI-powered analysis of risks and opportunities.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

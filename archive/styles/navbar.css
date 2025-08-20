@@ -1,0 +1,122 @@
+/* Navbar styles */
+header {
+  background-color: #00122d;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+/* Header height */
+header .flex {
+  height: 3rem;
+}
+
+/* Logo styles */
+.logo {
+  height: 3rem;
+  width: auto;
+}
+
+/* Links styling */
+.text-electric-blue-400 {
+  color: #3b9eff;
+}
+
+.hover\:text-electric-blue-400:hover {
+  color: #3b9eff;
+}
+
+.hover\:bg-gray-600:hover {
+  background-color: #4b5563;
+}
+
+.hover\:bg-gray-700:hover {
+  background-color: #374151;
+}
+
+/* Group hover functionality */
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group:hover .group-hover\:visible {
+  visibility: visible;
+}
+
+/* Submenu styling */
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 1px 1px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Mobile menu button */
+.md\:hidden button {
+  color: #d1d5db;
+}
+
+.md\:hidden button:hover {
+  color: #ffffff;
+}
+
+/* Space adjustments for menu items */
+.space-x-6 > * + * {
+  margin-left: 1.5rem;
+}
+
+.space-x-8 > * + * {
+  margin-left: 2rem;
+}
+
+.space-y-1 > * + * {
+  margin-top: 0rem;
+}
+
+/* Background colors for active states */
+.bg-gray-700 {
+  background-color: #374151;
+}
+
+/* Fix for menu item height */
+header a {
+  line-height: 0;
+}
+
+/* Desktop menu item adjustments */
+header nav > div > a {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+/* Submenu item adjustments */
+header nav .group-hover\:visible a {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+/* Mobile menu adjustments */
+header .md\:hidden a {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}

@@ -1,0 +1,26 @@
+:root {
+  /* --- Core Colors --- */
+  --component-bg-primary: #ffffff;
+  --component-panel-bg: #f8fafc;
+  --component-panel-border: #e2e8f0;
+
+  /* --- Text Colors --- */
+  --component-text-primary: #1e293b;
+  --component-text-muted: #64748b;
+  --component-text-accent: #0ea5e9;
+  
+  /* --- Semantic Colors --- */
+  --component-color-success: #22c55e;
+  --component-color-warning: #f59e0b;
+  --component-color-danger: #ef4444;
+
+  /* --- Fonts --- */
+  --component-font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
+}
+
+body {
+  background-color: var(--component-bg-primary);
+  font-family: var(--component-font-family);
+  color: var(--component-text-primary);
+  min-height: 100vh;
+}
